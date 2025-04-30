@@ -12,6 +12,28 @@
      foundation for managing user interactions, property listings, bookings, and payments. 
      This backend will support various functionalities required to mimic the core features of Airbnb, 
      ensuring a smooth experience for users and hosts.
+___________________________________________________________________________________________________________
+
+**⚙️ Technology Stack**
+
+     Django:                 - A high-level Python web framework used for building the RESTful API.
+     Django REST Framework:  - Provides tools for creating and managing RESTful APIs.
+     PostgreSQL:             - A powerful relational database used for data storage.
+     GraphQL:                - Allows for flexible and efficient querying of data.
+     Celery:                 - For handling asynchronous tasks such as sending notifications or processing payments.
+     Redis:                  - Used for caching and session management.
+     Docker:                 - Containerization tool for consistent development and deployment environments.
+     CI/CD Pipelines:        - Automated pipelines for testing and deploying code changes.
+     
+___________________________________________________________________________________________________________
+
+**Database Design**
+
+   Users      - User Name, Phone Number, Email, 
+   Bookings   - Date and Time, Room Number,
+   Reviews    - Number of Reviews, Level
+   Payments   - Date and Time, Amount
+___________________________________________________________________________________________________________
 
 **🎨 UI/UX Design Planning**
 
@@ -21,14 +43,62 @@
       Maintain visual consistency
       Ensure fast loading times
       Prioritize mobile responsiveness.
-      
+___________________________________________________________________________________________________________      
+**🛠️ Feature Breakdown**
+   **1. API Documentation**
+   
+       OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
+       Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
+       GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
+       
+   **2. User Authentication**
+   
+       Endpoints: /users/, /users/{user_id}/
+       Features: Register new users, authenticate, and manage user profiles.
+   
+   **3. Property Management**
+   
+       Endpoints: /properties/, /properties/{property_id}/
+       Features: Create, update, retrieve, and delete property listings.
+   
+   **4. Booking System**
+   
+       Endpoints: /bookings/, /bookings/{booking_id}/
+       Features: Make, update, and manage bookings, including check-in and check-out details.
+   
+   **5. Payment Processing**
+   
+       Endpoints: /payments/
+       Features: Handle payment transactions related to bookings.
+   
+   **7. Review System**
+   
+       Endpoints: /reviews/, /reviews/{review_id}/
+       Features: Post and manage reviews for properties.
+   
+   **9. Database Optimizations**
+   
+       Indexing: Implement indexes for fast retrieval of frequently accessed data.
+       Caching: Use caching strategies to reduce database load and improve performance.
+
+___________________________________________________________________________________________________________
+**API Security**
 **✅ Key Features**
 
       Property search and filtering
       Detailed property viewing
       Secure checkout process
       User authentication
-   
+
+___________________________________________________________________________________________________________
+**CI/CD Pipeline**
+    A CI/CD (Continuous Integration/Continuous Delivery/Deployment) pipeline is an automated workflow 
+    in software development that streamlines the process of integrating code, testing it, 
+    and deploying it to production. It combines Continuous Integration (CI), Continuous Delivery (CD), 
+    and sometimes Continuous Deployment. CI involves frequent merging of code changes into a shared 
+    repository and running automated tests. CD automates the release and rollout of the application 
+    after integration, while Deployment is the automated release to production. 
+
 **📄 Primary Pages**
 
   **Page	                  Description**
