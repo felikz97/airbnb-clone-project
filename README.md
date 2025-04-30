@@ -8,15 +8,15 @@
     
 📌 **Project Overview**
 
-     Objective The backend for the Airbnb Clone project is designed to provide a robust 
-     and scalable foundation for managing user interactions, 
-     property listings, bookings, and payments. This backend 
-     will support various functionalities required to mimic the core features of Airbnb, 
+     Objective The backend for the Airbnb Clone project is designed to provide a robust and scalable 
+     foundation for managing user interactions, property listings, bookings, and payments. 
+     This backend will support various functionalities required to mimic the core features of Airbnb, 
      ensuring a smooth experience for users and hosts.
 
 **🎨 UI/UX Design Planning**
 
    **Design Goal**
+   
       Create intuitive booking flow
       Maintain visual consistency
       Ensure fast loading times
@@ -31,12 +31,13 @@
    
 **📄 Primary Pages**
 
-**Page	                  Description**
-Property Listing View	   -Grid display of available properties with filters
+  **Page	                  Description**
 
-Listing Detailed View	   -Complete property details with images and booking form
-
-Simple Checkout View	    - Streamlined payment and booking confirmation
+     Property Listing View	   - Grid display of available properties with filters
+     
+     Listing Detailed View	   - Complete property details with images and booking form
+     
+     Simple Checkout View	    - Streamlined payment and booking confirmation
 
 **Importance of User-Friendly Design**
 
@@ -45,12 +46,12 @@ Simple Checkout View	    - Streamlined payment and booking confirmation
 
 **Figma Design Specifications**
    
-   Color Styles:
-   Primary: #FF5A5F
-   Secondary: #008489
-   Background: #FFFFFF
-   Text: #222222
-   Secondary Text: #717171
+   **Color Styles:**
+       Primary: #FF5A5F
+       Secondary: #008489
+       Background: #FFFFFF
+       Text: #222222
+       Secondary Text: #717171
 
 # Typography:
     Primary Font: Circular, Medium (500), 16px
@@ -58,14 +59,15 @@ Simple Checkout View	    - Streamlined payment and booking confirmation
     Secondary Text: Circular, Book (400), 14px
 
 👥 **Project Roles and Responsibilities**
-      Project Manager       - 	Oversees timeline, coordinates team, manages deliverables
-      Frontend Developers	  -  Implements UI components, ensures responsive design
-      Backend Developers	   -  Builds APIs, manages database, implements business logic
-      Designers	            -  Creates mockups, maintains design system, ensures UX quality
-      QA/Testers	           -  Writes test cases, performs testing, reports bugs
-      DevOps Engineers	     -  Manages deployment, CI/CD pipeline, server infrastructure
-      Product Owner	        -  Defines requirements, prioritizes features, represents stakeholders
-      Scrum Master	         -  Facilitates agile processes, removes blockers, organizes meetings
+
+        Project Manager       - 	Oversees timeline, coordinates team, manages deliverables
+        Frontend Developers	  -  Implements UI components, ensures responsive design
+        Backend Developers	   -  Builds APIs, manages database, implements business logic
+        Designers	            -  Creates mockups, maintains design system, ensures UX quality
+        QA/Testers	           -  Writes test cases, performs testing, reports bugs
+        DevOps Engineers	     -  Manages deployment, CI/CD pipeline, server infrastructure
+        Product Owner	        -  Defines requirements, prioritizes features, represents stakeholders
+        Scrum Master	         -  Facilitates agile processes, removes blockers, organizes meetings
 
 
 **🧱 UI Component Patterns**
