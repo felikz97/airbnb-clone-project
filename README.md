@@ -16,7 +16,7 @@ ________________________________________________________________________________
 
 **⚙️ Technology Stack**
 
-| Name       | Role           |
+|      |          |
 |------------|----------------|
 | Django     | A high-level Python web framework used for building the RESTful API      |
 | Django REST Framework  | Provides tools for creating and managing RESTful APIs |
@@ -86,11 +86,13 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________
 **👥 Team Roles**
+ |   Team   |     Role     |
+|------------|----------------|
+| Backend Developer     |Responsible for implementing API endpoints, database schemas, and business logic     |
+| Database Administrator | Manages database design, indexing, and optimizations |
+| DevOps Engineer        | Handles deployment, monitoring, and scaling of the backend services|
+|QA Engineer         | Ensures the backend functionalities are thoroughly tested and meet quality standards|
 
-    Backend Developer:      - Responsible for implementing API endpoints, database schemas, and business logic.
-    Database Administrator: - Manages database design, indexing, and optimizations.
-    DevOps Engineer:        - Handles deployment, monitoring, and scaling of the backend services.
-    QA Engineer:            - Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
 ___________________________________________________________________________________________________________
 **API Security**
